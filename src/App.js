@@ -61,6 +61,8 @@ const App = () => {
   return (
     <div>
       <h1 className="title">EPNS 2021 Roadmap</h1>
+    
+
       <VerticalTimeline>
         {timeLineElements.map((element) => {
           if (element.id === 21) {

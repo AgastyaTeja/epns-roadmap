@@ -3,7 +3,7 @@ let timeLineElements = [
         id: 1,
         title: "Audit and TGE",
         when: "2021 Q1",
-        description: "Q1 has seen successful completion EPNS $PUSH Token Generation Event. ChainSafe Systems completed an audit of EPNS token, staking and Time Vesting smart contracts. No critical issues were found",
+        description: "Q1 has seen successful completion of $PUSH Token Generation Event. ChainSafe Systems completed an audit of EPNS token, staking and Time Vesting smart contracts. No critical issues were found",
         moreInfo: "https://medium.com/ethereum-push-notification-service/epns-monthly-blocks-98d0f3c0d0db",
         icon: "code",
         status: "Completed ✅"
@@ -86,7 +86,7 @@ let timeLineElements = [
         id: 10,
         title: "Browser Extension",
         when: "2021 Q2",
-        description: "A very lightweight yet powerful too that provides a reduced but still rich features set of all the capabilities available in the dApp and mobile App",
+        description: "A very lightweight yet powerful tool that provides a reduced but still rich features set of all the capabilities available in the dApp and mobile App",
         moreInfo:"https://medium.com/ethereum-push-notification-service/epns-roadmap-2021-c4ededc57a12",
         icon: "code",
         status: "2021 Q2 🗓️"
@@ -114,7 +114,7 @@ let timeLineElements = [
         id: 13,
         title: "Third Party Notif Receiving SDK",
         when: "2021 Q3",
-        description: "Will enable 3rd party services to notiications",
+        description: "Will enable 3rd party services to receive notiications",
         moreInfo:"https://medium.com/ethereum-push-notification-service/epns-roadmap-2021-c4ededc57a12",
         icon: "code",
         status: "2021 Q3 🗓️"

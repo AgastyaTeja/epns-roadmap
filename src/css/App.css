@@ -1,83 +1,114 @@
-body{
-    background: #3da3d5;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:16px;
-    color: rgb(53,53,53);
 
-}
-h5{
-    color:#595957
-}
-.title{
-    font-size:5em;
-    text-align: center;
-    font-family: "Bebas Neue";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Raleway:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-h3{
-    padding-top:0.25em;
+body {
+  background: #3da3d5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+  font-weight: 400;
+}
+h5 {
+  color: #595957;
+}
+.title {
+  font-size: 5em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.vertical-timeline-element-content{
-    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0.4em 1.25em 0 rgba(0,0,0,0.15) !important;
-
-    padding: 2em 3em !important;
-}
-
-.lastElement.vertical-timeline-element-content{
-    box-shadow: none !important ;
-}
-.date{
-    color:#fff;
+h3 {
+  padding-top: 0.25em;
 }
 
 #description {
-    margin: 1.5em 0 2em 0;
+  margin: 1.5em 0 2em 0;
 }
 
-.button{
+.q1Btn {
+  background-color: #06d6a0;
+}
+.q1Btn:hover {
+  background-color: #0ac593;
+}
+.q2Btn {
+  background-color: #f9c74f;
+}
+.q2Btn:hover {
+  background-color: #f3bc3c;
+}
+.q3Btn {
+  background-color: #ff6347;
+}
+.q3Btn:hover {
+  background-color: #bf362c;
+}
+.q4Btn {
+  background-color: #ffa500;
+}
+.q4Btn:hover {
+  background-color: #bf9d2c;
+}
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+.lastElement .vertical-timeline-element-content.bounce-in {
+  visibility: hidden !important;
+}
+@media screen and (max-width: 1170px) and (min-width: 0px) {
+  .date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 0.5em;
+    padding: 0em 0.3em !important;
+    font-size: 15px !important;
+  }
+  .button {
+    display: table-caption !important;
     text-decoration: none;
-    padding:0.3em 1.2em;
-    margin:0 0.3em 0.3em 0;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
     border-radius: 1px;
     color: white;
-    text-align:center;
+    text-align: center;
     border-radius: 2em;
     transition: all 0.2s;
+  }
 }
-
-.q1Btn{
-    background-color: #06D6A0;
+@media screen and (max-width: 2660px) and (min-width: 1170px) {
+  .date {
+    color: #fff !important;
+  }
+  .button {
+    text-decoration: none;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    border-radius: 1px;
+    color: white;
+    text-align: center;
+    border-radius: 2em;
+    transition: all 0.2s;
+  }
+  .vertical-timeline-element-icon svg {
+    display: block;
+    width: 38px !important;
+    height: 38px !important;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px !important;
+    margin-top: -20px !important;
 }
-.q1Btn:hover{
-    background-color: #0ac593;
-}
-.q2Btn{
-    background-color: #f9c74f;
-}
-.q2Btn:hover{
-    background-color: #f3bc3c;
-}
-.q3Btn{
-    background-color: #FF6347;
-}
-.q3Btn:hover{
-    background-color: #bf362c;
-}
-.q4Btn{
-    background-color: #FFA500;
-}
-.q4Btn:hover{
-    background-color:#bf9d2c;
-}
-
-@media only screen and(max-width: 1700px){
-    .vertical-timeline-element-date{
-        display: block !important;
-        float: none !important;
-        color: rgb(44,44,44);
-        margin-top: 1.5em;
-    }
 }
